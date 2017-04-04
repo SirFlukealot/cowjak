@@ -13,7 +13,7 @@ then
 	echo "recode - Francois Pinard"
 	echo "jshon - Kyle Keen"
 	echo "rig - Ian Turner"
-	echo "w3m - "
+	echo "w3m - Akinori ITO"
 	echo "Would you like to continue with installation? [y/n]" 
 	read ack
 	if [ "$ack" = "y" ]
