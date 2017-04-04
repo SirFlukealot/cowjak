@@ -1,3 +1,9 @@
+#Created by: Jak Edwards (SirFLukealot)
+#This is an interactive shell script that utlises the cowsay shell feature developed by Tony Monroe
+#To install the dependancies, you will first have to change the permissions of the file to allow it to use
+#sudo apt-get install on your machine. Once that is done, just run ./cowjak install to run the installation script.
+#After that, enjoy the fun that cowjak brings to your terminal, enjoy :)
+
 #!/bin/bash
 if [ "$1" = "install" ]
 then
