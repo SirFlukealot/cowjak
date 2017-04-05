@@ -106,7 +106,7 @@ then
 	echo " insult - Cowjak will insult thou in a Shakesperian manner. Courtesey of http://www.pangloss.com/seidel/Shaker/index.html?"
 	echo "   help - Takes you to the help page, what you're looking at right now"
 	echo " "
-	echo "MATHEMEATICS:"
+	echo "MATHEMATICS:"
 	echo "	add - Cowjak will add one integer to another"
 	echo "	sub - Cowjak will subtract one integer from another"
 	echo "	mul - Cowjak will multiply two integers together"
