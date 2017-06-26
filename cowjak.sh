@@ -101,13 +101,13 @@ then
 	if [ "$mode" = "e" ]
 		then echo "Ok, what would you like me to encode?" | cowsay
 		read inp
-		echo "EnCOWding...see what I did there" | cowsay
+		echo "EnCOWding... see what I did there" | cowsay
                 sleep 3
                 echo $inp | openssl base64 -e | cowsay
 	elif [ "$mode" = "d" ]
 		then echo "Ok, what would you like me to decode?" | cowsay
 		read inp
-		echo "DeCOWding...see what I did there" | cowsay
+		echo "DeCOWding... see what I did there" | cowsay
                 sleep 3
                 echo $inp | base64 --decode | cowsay
 	else echo "Sorry, I didnt quite hear you. Please choose encode [e], or decode [d]." | cowsay
@@ -119,13 +119,13 @@ then
 	if [ "$mode" = "e" ]
 		then echo "Sure, what is it that you need encoding?" | cowsay
 		read inp
-		echo "EnCOWding. Bad pun, I know" | cowsay
+		echo "EnCOWding... Bad pun, I know" | cowsay
 		sleep 3
 		echo -n $inp | od -A n -t x1 | cowsay
 	elif [ "$mode" = "d" ]
 		then echo "Sure, what is it that you need decoding? (So I can understand properly, please lead with a space and separate the bits by spaces too: i.e. ' 63 6f 77 6a 61 6b')" | cowsay
 		read inp
-		echo "DeCOWding. Bad pun, I know" | cowsay
+		echo "DeCOWding... Bad pun, I know" | cowsay
 		sleep 3
 		echo -n $inp | xxd -r -p | cowsay
 	else echo "I'm not sure I understand, please try again by typing 'e' for encode, and 'd' for decode."
