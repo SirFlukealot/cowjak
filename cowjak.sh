@@ -123,7 +123,7 @@ then
 		sleep 3
 		echo -n $inp | od -A n -t x1 | cowsay
 	elif [ "$mode" = "d" ]
-		then echo "Sure, what is it that you need decoding? (So I can understand properly, please lead with a space and separate the bits by spaces too: i.e. ' 63 6f 77 6a 61 6b')" | cowsay
+		then echo "Sure, what is it that you need decoding? (So I can understand properly, please lead with a space and separate the bits by spaces too. For example:' 63 6f 77 6a 61 6b')" | cowsay
 		read inp
 		echo "DeCOWding... Bad pun, I know" | cowsay
 		sleep 3
